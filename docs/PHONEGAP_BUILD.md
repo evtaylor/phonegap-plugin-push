@@ -33,7 +33,7 @@ Because PhoneGap Build does not support running hooks if you want to include cus
 To add custom files, create a directory called `locales/android/` in the root of your PGB application zip / repo, and place your resource files there. The contents will be copied into the Android `res/` directory, and any nested sub-directory structures will persist. Here's an example of how these files will be compiled into your APK:
 
 ```
-<www.zip>/locales/android/drawables/logo.png    --> <android_apk>/res/drawables/logo.png
+<www.zip>/locales/android/drawable/logo.png    --> <android_apk>/res/drawable/logo.png
 <www.zip>/locales/android/raw/beep.mp3          --> <android_apk>/res/raw/beep.mp3
 <www.zip>/locales/android/values-fr/strings.xml --> <android_apk>/res/values-fr/strings.xml
 ```
